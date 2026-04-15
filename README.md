@@ -8,6 +8,10 @@ A plugin marketplace by [Jan Mesarc](https://github.com/jame581) — curated ski
 
 Persistent memory for Claude using a dedicated Logseq graph. Save and load project context, decisions, and progress across sessions and devices.
 
+### [godot-prompter](https://github.com/jame581/GodotPrompter)
+
+Agentic skills framework for Godot 4.x game development — 44 domain-specific skills for GDScript and C#, plus agents for architecture, development, and code review.
+
 ## Install
 
 ### Claude Code
@@ -15,6 +19,7 @@ Persistent memory for Claude using a dedicated Logseq graph. Save and load proje
 ```bash
 claude plugins marketplace add jame581/skillsmith
 claude plugins install logseq-brain@skillsmith
+claude plugins install godot-prompter@skillsmith
 ```
 
 ### GitHub Copilot CLI
@@ -22,14 +27,16 @@ claude plugins install logseq-brain@skillsmith
 ```bash
 copilot plugin marketplace add jame581/skillsmith
 copilot plugin install logseq-brain@skillsmith
+copilot plugin install godot-prompter@skillsmith
 ```
 
 ### Gemini CLI
 
 ```bash
 gemini extensions install https://github.com/jame581/LogseqBrain
+gemini extensions install https://github.com/jame581/GodotPrompter
 ```
 
-## Other Marketplaces
+## Legacy Marketplace
 
-- [godot-prompter-marketplace](https://github.com/jame581/godot-prompter-marketplace) — Godot 4.x skills for AI coding agents
+The [godot-prompter-marketplace](https://github.com/jame581/godot-prompter-marketplace) remains online for existing installs, but new users should prefer `skillsmith`.
