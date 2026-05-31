@@ -7,7 +7,7 @@
     {
       "name": "logseq-brain",
       "description": "Persistent memory for Claude using a dedicated Logseq graph. Save and load project context, decisions, and progress across sessions and devices.",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "source": {
         "source": "url",
         "url": "https://github.com/jame581/LogseqBrain.git"
