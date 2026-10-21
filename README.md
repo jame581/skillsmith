@@ -1,6 +1,6 @@
 # Skillsmith
 
-A plugin marketplace by [Jan Mesarc](https://github.com/jame581) — curated skills and plugins for AI coding agents (Claude Code, GitHub Copilot CLI, Gemini CLI).
+A plugin marketplace by [Jan Mesarc](https://github.com/jame581) — curated skills and plugins for AI coding agents (Claude Code, GitHub Copilot CLI, Antigravity).
 
 ## Plugins
 
@@ -10,7 +10,7 @@ Persistent memory for Claude using a dedicated Logseq graph. Save and load proje
 
 ### [godot-prompter](https://github.com/jame581/GodotPrompter)
 
-Agentic skills framework for Godot 4.x game development — 44 domain-specific skills for GDScript and C#, plus agents for architecture, development, and code review.
+Agentic skills framework for Godot 4.x game development — <!-- godot-prompter-skills -->56<!-- /godot-prompter-skills --> domain-specific skills and <!-- godot-prompter-agents -->9<!-- /godot-prompter-agents --> agents for GDScript and C#, covering architecture, gameplay, rendering, multiplayer, optimization, and code review.
 
 ## Install
 
@@ -30,12 +30,13 @@ copilot plugin install logseq-brain@skillsmith
 copilot plugin install godot-prompter@skillsmith
 ```
 
-### Gemini CLI
+### Antigravity CLI (`agy`)
 
 ```bash
-gemini extensions install https://github.com/jame581/LogseqBrain
-gemini extensions install https://github.com/jame581/GodotPrompter
+agy plugin install https://github.com/jame581/GodotPrompter
 ```
+
+Antigravity succeeds Gemini CLI, which Google retired on 2026-06-18. For Cursor, Codex, OpenCode, and Grok Build, see the [GodotPrompter install guide](https://github.com/jame581/GodotPrompter#quick-start).
 
 ## Legacy Marketplace
 
