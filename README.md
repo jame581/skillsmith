@@ -10,7 +10,7 @@ Persistent memory for Claude using a dedicated Logseq graph. Save and load proje
 
 ### [godot-prompter](https://github.com/jame581/GodotPrompter)
 
-Agentic skills framework for Godot 4.x game development — <!-- godot-prompter-skills -->56<!-- /godot-prompter-skills --> domain-specific skills and <!-- godot-prompter-agents -->9<!-- /godot-prompter-agents --> agents for GDScript and C#, covering architecture, gameplay, rendering, multiplayer, optimization, and code review.
+Agentic skills framework for Godot 4.x game development — <!-- godot-prompter-skills -->59<!-- /godot-prompter-skills --> domain-specific skills and <!-- godot-prompter-agents -->9<!-- /godot-prompter-agents --> agents for GDScript and C#, covering architecture, gameplay, rendering, multiplayer, optimization, and code review.
 
 ## Install
 
